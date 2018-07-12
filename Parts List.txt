@@ -1,0 +1,18 @@
+Assume all parts are stock unless it's listed.
+
+Chassis, wheel motor and tires --- https://www.walmart.com/ip/Power-Wheels-Jeep-Wrangler-12-Volt-Battery-Powered-Ride-On-Red/36221565
+
+Board used (BeagleBone Black Wireless) --- https://www.digikey.com/product-detail/en/ghi-electronics,-llc/BBBWL-SC-562/BBBWL-SC-562-ND/6211000?WT.srch=1&gclid=Cj0KCQjw-JvaBRDGARIsAFjqkkq2WGTs6DWlYcdHrlPO0qyE1m0CwutXxJc_m9HdcO82lLu5nSF5VGsaAjwjEALw_wcB
+
+Ultrasonics (we used the analog pin) --- https://www.maxbotix.com/Ultrasonic_Sensors/MB1013.htm 
+
+Motor Controller (We used ESCs) --- https://www.rcplanet.com/traxxas-vxl-3m-waterproof-electronic-speed-control-tra3375/?gclid=Cj0KCQjw-JvaBRDGARIsAFjqkkrm8AvdLa7NpdrdpguhJ6hRCDXW4prZjxvS4tSnArdQCOa7kfZ7G6caAp_1EALw_wcB
+
+GPS --- https://www.adafruit.com/product/1059?gclid=Cj0KCQjw-JvaBRDGARIsAFjqkkqUhCfBfw6k4p5fLgQvgJxzzg4t3LbWHUf70JlrKmcZog16B1SYARIaAibyEALw_wcB
+
+
+
+
+Power
+2, 3 cell 5000mAh, 11.1v lipos for the motors and 1 7.4v lipo for the steering servo
+any cell phone battery pack to provide power to the BBB 
