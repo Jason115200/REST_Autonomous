@@ -1,7 +1,7 @@
 import Adafruit_BBIO.PWM as PWM
 import time
 
-#The number you want to set to woudl equal on the range of 50 - 130. 95 being neautral >95 is backwards and <95 is forwards
+#The number you want to set to would equal on the range of 50 - 130. 95 being neautral >95 is backwards and <95 is forwards
 #The further this number is away from 95 the faster it gets
 #110 is a decent speed backwards and 80 for forwards.
 
