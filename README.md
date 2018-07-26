@@ -1,4 +1,4 @@
-Background
+Background:
 REST_Autonomouspowerwheels was created by a small group of highschool students who wanted to make and design our own mini autonomous car using the BeagleBone Black. REST stands for Roseville Engineering, Science and Technology.
 We have competed for 3 years with our autonomous car against other schools and won the Square One trophy and Professionalism trophies aswell.
 
