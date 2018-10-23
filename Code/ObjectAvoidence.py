@@ -4,7 +4,7 @@ killswitch = "P8_14"
 GPIO.setup(killswitch, GPIO.IN)
 
 while 1:
-    if GPIO.input("P8_14"):
+    if GPIO.input(killswitch):  #Test this line it might be useless
     #run code
         start_motors()
         neutral_motors()
@@ -12,7 +12,7 @@ while 1:
         
         
         if ultrasonic_frontCenter_distance <= 30 and ultrasonic_frontLeft_distance <= 30 and ultrasonic_frontRight_distance <= 30:
-            print('WE ARE SURROUNDED')
+            print('No space to move forward...')
             print('Front Left', ultrasonic_frontLeft_distance, 'Front Center', ultrasonic_frontCenter_distance, 'Front Right', ultrasonic_frontRight_distance)
             stop()
             pass
