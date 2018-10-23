@@ -77,6 +77,8 @@ class GPS:
 myGPS=GPS()
 def GPS_initialize():
         myGPS.read()
+#     YOU CAN UNCOMMENT TO TEST VALUES
+#
 #         print myGPS.NMEA1
 #         print myGPS.NMEA2
 #         if myGPS.fix!=0:
